@@ -1,0 +1,65 @@
+:root {
+  --primary: #000000;
+  --orange: #fa721a;
+  --bluish: #349ddf;
+  --bluish-light: #9aefff;
+  --light-grey: #f8f9fa;
+}
+
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.bg-bluish {
+  background-color: var(--bluish);
+}
+
+.fake-map {
+  height: 10vh;
+  width: 100vw;
+}
+
+.fs-lg {
+  font-size: 5rem;
+}
+
+.pt-10 {
+  padding-top: 10rem;
+}
+
+.pb-8 {
+  padding-bottom: 8rem;;
+}
+
+.fs-- {
+  font-size: 0.85rem;
+}
+
+button {
+  margin-left: 0.25rem;
+  border: 1px solid var(--bluish);
+  color: var(--light-grey);
+}
+
+button:hover {
+  background-color: var(--light-grey);
+  color: var(--bluish);  
+}
+
+body.debug .container,
+body.debug .container-fluid {
+  outline: 2px double blue;
+  outline-offset: -2px;
+  min-height: 5vh;
+}
+
+body.debug .row {
+  outline: 2px dashed red;
+  outline-offset: -2px;
+  min-height: 5vh;
+}
+
+body.debug [class*="col-"] {
+  outline: 2px dotted forestgreen;
+  outline-offset: -3px;
+}
